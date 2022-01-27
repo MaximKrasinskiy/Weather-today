@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+ul{
+    list-style: none;
+}
+p{
+    font-size:24px;
+    padding:10px 0 10px 20px;
+}
+h1{
+    text-align: center;
+    color: green;
+    
+}
+.container{
+    width: 240px;
+    height: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid rgb(221, 207, 9);
+    box-shadow:  3px 3px 3px #d0e41e;
+}
+.line{
+   margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(228, 44, 11);
+    opacity: .6;
+}
+.package-name{
+    height: 3.5rem;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.feel-like{
+    font-size: 14px;
+}
+#city{
+    margin-bottom: 10px;
+    width: 150px;
+    outline: none;
+}
